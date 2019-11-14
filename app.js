@@ -37,7 +37,7 @@ app.post('/', function(req, res){
     url: "https://us5.api.mailchimp.com/3.0/lists/833f360896",
     method: "POST",
     headers: {
-      "Authorization": "Nairdy 65c07421dce83612b86705140daa5f63-us5",
+      "Authorization": "somestring 65c07421dce83612b86705140daa5f63-us5",
     },
     body: jsonData
   };
